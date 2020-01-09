@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>대장관리 - 메인 화면</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<nav class="bg-light navbar">
+  <div class="container">
+    <a class="navber-brand">
+      <img src="img/logo.png" alt="Archivsoft Logo">
+      <span>product manager List</span>
+    </a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li><a href="#">관리자 페이지</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <header class="both-pd">
+    <div class="container search">
+        <label>
+         품목 <input type="text" placeholder="품목 명" />
+        </label>
+        <label>
+         위치 <input type="text" placeholder="해당 위치 검색" />
+        </label>
+        <label>
+         사용자 <input type="text" placeholder="반출자 명" />
+        </label>
+        <label>
+         용도 <input type="text" placeholder="사용 용도" />
+        </label>
+        <button>
+          검색 버튼
+        </button>
+    </div>
+  </header>
+
+  <div class="container list-box">
+    <div class="row">
+      <div>
+        <table>
+          <colgroup>
+            <col width="10%"/>
+            <col width="12.5%"/>
+            <col width="10%"/>
+            <col width="12.5%"/>
+            <col width="20%"/>
+            <col width="*%"/>
+            <col width="10%"/>
+            <col width="7.5%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <td>No.</td>
+              <td>등록일시</td>
+              <td>품목명</td>
+              <td>사용자</td>
+              <td>관리번호</td>
+              <td>사용처</td>
+              <td>용도</td>
+              <td>반출여부</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2020-01-07</td>
+              <td>모니터</td>
+              <td>김대성</td>
+              <td>AC-BAR-HAGI-GUCHANA</td>
+              <td>서울교육청</td>
+              <td>개발 PC</td>
+              <td>반출</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2020-01-07</td>
+              <td>모니터</td>
+              <td>김대성</td>
+              <td>AC-BAR-HAGI-GUCHANA</td>
+              <td>서울교육청</td>
+              <td>개발 PC</td>
+              <td>반출</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2020-01-07</td>
+              <td>모니터</td>
+              <td>김대성</td>
+              <td>AC-BAR-HAGI-GUCHANA</td>
+              <td>서울교육청</td>
+              <td>개발 PC</td>
+              <td>반출</td>
+            </tr>
+          </tbody>
+        </table>
+        <!--
+        <div>No.</div>
+        <div>등록일시</div>
+        <div>품목명</div>
+        <div>사용자</div>
+        <div>관리번호</div>
+        <div>사용처</div>
+        <div>용도</div>
+        <div>반출여부</div>
+        -->
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="container text-center">
+  ◀ ◁ [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] ▷ ▶
+</div>
+
+<footer>
+  <div class="footer-main bg-dark py-5 small">
+    <div class="container">
+      <a href="http://www.archivsoft.com/">Archivsoft</a> is a project created and maintained by Daesung
+    </div>
+  </div>
+</footer>
+
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

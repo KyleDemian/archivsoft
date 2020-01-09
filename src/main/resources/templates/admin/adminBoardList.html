@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>대장관리 - 상품 관리 리스트</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<nav class="bg-light navbar">
+  <div class="container">
+    <a class="navber-brand">
+      <img src="img/logo.png" alt="Archivsoft Logo">
+    </a>
+
+    <div class="navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#" class="nav-link">카테고리 관리</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">상품 관리</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">유저 관리</a></li>
+        <li class="nav-item"><a href="#" class="nav-link"><b>출고 관리</b></a></li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li><a href="#">로그아웃</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="container list-box">
+    <div class="row">
+      <div>
+        <table>
+          <colgroup>
+            <col width="7.5%"/>
+            <col width="10%"/>
+            <col width="7.5%"/>
+            <col width="10%"/>
+            <col width="*"/>
+            <col width="15%"/>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="10%"/>
+          </colgroup>
+          <thead>
+            <tr>
+              <td>No.</td>
+              <td>반출일</td>
+              <td>사용자</td>
+              <td>반입예정일</td>
+              <td>제품명</td>
+              <td>용도</td>
+              <td>상태</td>
+              <td>위치</td>
+              <td>반출여부</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2020-01-01</td>
+              <td>김대성</td>
+              <td>2019-01-07</td>
+              <td>모니터</td>
+              <td>개인 업무 PC</td>
+              <td>사용중</td>
+              <td>사무실</td>
+              <td>반입</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2020-01-01</td>
+              <td>김대성</td>
+              <td>2019-01-07</td>
+              <td>모니터</td>
+              <td>개인 업무 PC</td>
+              <td>사용중</td>
+              <td>사무실</td>
+              <td>반입</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2020-01-01</td>
+              <td>김대성</td>
+              <td>2019-01-07</td>
+              <td>모니터</td>
+              <td>개인 업무 PC</td>
+              <td>사용중</td>
+              <td>사무실</td>
+              <td>반입</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div class="container ta-right">
+  <input type="button" value="등록" class="reg_button color_blue">
+</div>
+
+<div class="container text-center">
+  ◀ ◁ [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] ▷ ▶
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>
+      해당 부분 상세 내용 나와야 함
+    </p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-main bg-dark py-5 small">
+    <div class="container">
+      <a href="http://www.archivsoft.com/">Archivsoft</a> is a project created and maintained by Daesung
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
