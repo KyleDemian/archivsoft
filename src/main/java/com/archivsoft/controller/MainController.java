@@ -29,21 +29,23 @@ public class MainController {
         return "/main/update.html";
     }
 
-//    @PutMapping("/post/edit/{no}")
+    //    @PutMapping("/post/edit/{no}")
     @RequestMapping(value = "/post/edit/{no}", method = RequestMethod.POST)
     public String update(MainDto maindto){
         mainService.savePost(maindto);
         return "redirect:/";
     }
 
-//    @DeleteMapping("/post/{no}")`
+    //    @DeleteMapping("/post/{no}")`
     @RequestMapping(value="/post/{no}" , method =RequestMethod.POST)
     public String delete(@PathVariable("no") Long no){
         mainService.deletePost(no);
         return "redirect:/";
     }
 
-    @GetMapping("/")
+    // Not
+//@GetMapping("/")
+    @GetMapping("/test_ocurringerr")
     public String list(Model model){
         List<MainDto> MainList = mainService.getMianList();
 
